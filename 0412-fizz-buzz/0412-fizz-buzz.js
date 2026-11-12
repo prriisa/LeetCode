@@ -6,20 +6,19 @@ var fizzBuzz = function (n) {
     let arr = []
 
     for (let i = 1; i <= n; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            arr.push("FizzBuzz")
-            continue
-        }
-        else if (i % 3 === 0) {
-            arr.push("Fizz")
-            continue
-        }
-        else if (i % 5 === 0) {
-            arr.push("Buzz")
-            continue
-        }
-        else arr.push(`${i}`)
-    }
+        //     if (i % 3 === 0 && i % 5 === 0) {
+        //         arr.push("FizzBuzz")
+        //     }
+        //     else if (i % 3 === 0) {
+        //         arr.push("Fizz")
+        //     }
+        //     else if (i % 5 === 0) {
+        //         arr.push("Buzz")
+        //     }
+        //     else arr.push(`${i}`)
 
+        (i % 3 === 0 && i % 5 === 0) ? arr.push("FizzBuzz") : (i % 3 === 0) ? arr.push("Fizz") : (i % 5 === 0) ? arr.push("Buzz") : arr.push(`${i}`)
+
+    }
     return arr
 };
