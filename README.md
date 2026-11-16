@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/prriisa/LeetCode/tree/master/0009-palindrome-number) |
 | [0412-fizz-buzz](https://github.com/prriisa/LeetCode/tree/master/0412-fizz-buzz) |
+| [1486-xor-operation-in-an-array](https://github.com/prriisa/LeetCode/tree/master/1486-xor-operation-in-an-array) |
 ## String
 |  |
 | ------- |
@@ -40,4 +41,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1480-running-sum-of-1d-array](https://github.com/prriisa/LeetCode/tree/master/1480-running-sum-of-1d-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1486-xor-operation-in-an-array](https://github.com/prriisa/LeetCode/tree/master/1486-xor-operation-in-an-array) |
 <!---LeetCode Topics End-->
