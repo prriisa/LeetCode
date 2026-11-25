@@ -4,8 +4,8 @@
  */
 var buildArray = function(nums) {
     let resultArr = []
-    for(num of nums){
-        resultArr.push(nums[num])
+    for(let i = 0; i < nums.length; i++){
+        resultArr.push(nums[nums[i]])
     }
     return resultArr
     
